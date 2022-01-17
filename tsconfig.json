@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es2020",
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "baseUrl": ".",
+    "declaration": true,
+    "outDir": "dist",
+
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "types": ["vite/client", "unplugin-icons/types/vue"]
+  },
+  "include": ["src", "test"],
+  "exclude": ["dist", "node_modules"]
+}
