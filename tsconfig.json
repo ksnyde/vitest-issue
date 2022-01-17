@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "es2020",
-    "target": "es2020",
-    "lib": ["DOM", "ESNext"],
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["DOM"],
     "strict": true,
     "esModuleInterop": true,
     "incremental": true,
@@ -15,12 +15,8 @@
 
     "baseUrl": ".",
     "declaration": true,
-    "outDir": "dist",
 
-    "paths": {
-      "~/*": ["src/*"]
-    },
-    "types": ["vite/client", "unplugin-icons/types/vue"]
+    "types": ["vite/client"]
   },
   "include": ["src", "test"],
   "exclude": ["dist", "node_modules"]
